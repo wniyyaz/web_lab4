@@ -7,7 +7,7 @@
     <script>
         function checkInput() {
             var userInput = document.getElementById("userInput").value;
-            if ((userInput)) {
+            if (isNaN(userInput)) {
                 alert("Please insert a number!");
             }
             else {
